@@ -16,7 +16,7 @@ and open the template in the editor.
         <?php
         session_start();
         echo 'Pedido del usuario '.$_SESSION['usuario']." <br>";
-        echo 'Precio final  pedido: '. $_SESSION['preciotot'].'€ <br>';
+        echo 'Precio  pedido: '. $_SESSION['preciotot'].'€ <br>';
         
         if(isset($_REQUEST['cerrar'])){
             session_destroy();
